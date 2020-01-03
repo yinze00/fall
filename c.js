@@ -1,7 +1,7 @@
 "use strict";
 
 var m = ThreeDMath;
-
+ 
 function main() {
   var cubeVertices = [
     -1, -1, -1,
