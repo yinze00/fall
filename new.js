@@ -5,8 +5,8 @@
 
 function main() {
   var image = new Image();
-  requestCORSIfNotSameOrigin(image, "https://webglfundamentals.org/webgl/resources/leaves.jpg")
-  image.src = "https://webglfundamentals.org/webgl/resources/leaves.jpg";
+  requestCORSIfNotSameOrigin(image, "c4061c796badc21.jpg")
+  image.src = "";
   image.onload = function () {
     render(image);
   };
